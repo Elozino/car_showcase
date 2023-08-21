@@ -1,6 +1,6 @@
 import { CarCard, CustomFilter, Hero, SearchBar } from '@/components'
 import ShowMore from '@/components/ShowMore'
-import { fuels, manufacturers, yearsOfProduction } from '@/constants'
+import { fuels, yearsOfProduction } from '@/constants'
 import { fetchCars } from '@/utils'
 
 export default async function Home({ searchParams }: any) {
